@@ -4,7 +4,7 @@
 sudo yum update -y
 
 # Install Java 11
-#sudo amazon-linux-extras install java-openjdk11 -y
+sudo amazon-linux-extras install java-openjdk11 -y
 
 # Import the Jenkins repository key
 sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
